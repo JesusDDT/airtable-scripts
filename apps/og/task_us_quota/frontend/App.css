@@ -1,0 +1,40 @@
+td{
+  padding: 5px !important;
+  border: 1px solid gray !important;
+}
+
+div.key{
+  margin-bottom: 20px;
+}
+
+div.key div{
+  padding-left: 10px;
+  margin: 5px;
+}
+div.good{
+  border-left: 10px solid lightGreen;
+}
+div.overflow{
+  border-left: 10px solid pink;
+}
+div.possible{
+  border-left: 10px solid lightBlue
+}
+div.impossible{
+  border-left: 10px solid lightYellow;
+}
+
+
+
+tr.good{
+  background-color: lightGreen;
+}
+tr.overflow{
+  background-color: pink;
+}
+tr.possible{
+  background-color: lightBlue
+}
+tr.impossible{
+  background-color: lightYellow;
+}

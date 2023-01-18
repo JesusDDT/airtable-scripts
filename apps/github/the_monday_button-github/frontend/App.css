@@ -1,0 +1,31 @@
+/* const levels = {
+  0: "Not Processed",
+  1: "Preferred Operator",
+  2: "Previous 5-star rating",
+  3: "Tier Match & Core Group",
+  4: "Tier Match",
+  5: "Core Group",
+  6: "Anyone"
+} */
+
+.level-0, .level-6{
+  background-color: pink;
+}
+.level-1, .level-2, .level-3, .level-4{
+  background-color: lightGreen;
+}
+.level-5{
+  background-color: #ffefd5;
+}
+
+table{
+  font-size: 12px;
+}
+
+.permanentNotes{
+  font-size: 10px;
+}
+
+.sorting:before, .sorting:after, .sorting_asc:after, .sorting_asc:before, .sorting_desc:after, .sorting_desc:before{
+  content: "" !important;
+}
